@@ -1,11 +1,11 @@
 export interface Forfait {
-    id?: number;
+    id: number;
     nom: string,
     description: string,
     code: string,
     catégories: string,
     etablissement: {
-        id?: number;
+        id: number;
         nom: string,
         description: string;
     },

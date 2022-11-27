@@ -1,2 +1,6 @@
+import {MatListModule} from '@angular/material/list';
+
 Liste des Forfaits
-<app-fiche-forfait *ngFor="let f of forfaits" [forfait]="f"></app-fiche-forfait>
+<mat-list role = "list">
+    <app-fiche-forfait *ngFor="let f of forfaits" [forfait]="f"></app-fiche-forfait>
+</mat-list>

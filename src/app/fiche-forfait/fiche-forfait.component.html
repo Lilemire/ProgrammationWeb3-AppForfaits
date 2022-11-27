@@ -1,1 +1,9 @@
-<p>fiche-forfait works!</p>
+Fiche-forfait
+<div class="flex">
+    <app-image></app-image>
+    <app-nom-description [description]="forfait?.description" [nom]="forfait?.nom"></app-nom-description>
+    <div class="blocDroite">
+        <app-prix [prix]="forfait?.prix"></app-prix>
+        <app-lien-details></app-lien-details>
+    </div>
+</div>
